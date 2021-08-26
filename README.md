@@ -14,7 +14,7 @@ This project makes use of graph convolutional neural network. </br>
 So the approach used incorporates representational learning. It is divided into two steps:
 - Generate high-quality embeddings for both users and items. These embeddings are generated using message passing framework, or simply information propagation through network.
 - Using the generated embeddings, predict the item preferences.</br>
-During the inference, a cosine similarity between user embeddings and all items embeddings are calculated. The item giving lower cosine similarity is picked for recommendation.
+During the inference, a cosine similarity between user embeddings and all items embeddings are calculated. The item giving higher cosine similarity is picked for recommendation.
 
 
 
